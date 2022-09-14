@@ -1,0 +1,91 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - bot_challenge
+  - c_1
+  - c_2
+  - c_3
+  - c_4
+  - c_5
+  - course_inquiry
+  - basic_inquiry
+  - ask_number
+
+responses:
+
+  utter_greet:
+  - text: "Salam! How may I be of your help?"
+    buttons:
+      - title: "Which courses do you offer?"
+        payload: "/course_inquiry"
+      - title: "I have a another matter."
+        payload: "/basic_inquiry"
+
+  utter_goodbye:
+  - text: "Allah Hafiz"
+  - text: "Khuda Hafiz"
+
+  utter_iamabot:
+  - text: "I am a bot! If you want to talk to a human representative please WhatsApp us at +92 323-4433534"
+
+  utter_else:
+    - text: "Ok let me know if I can be of help."
+
+#  utter_course_details:
+#    - text: "List of courses we offer:\n
+#            01. Amazon VA\n
+#            02. Graphic Designer\n
+#            03. Digital Marketing\n
+#            04. Cloud Computing\n
+#            05. Frontend Web development\n
+#            06. Advanced Frontend Web development\n
+#            07. Backend Web development\n
+#            08. Advanced Backend Web development\n
+#            09. Penetration Testing\n
+#            10. UI/UX Designing\n
+#            11. Ethical Hacking\n
+#            12. Artificial Intelligence\n
+#            13. Video Editing \n"
+
+  utter_course_details_buttons:
+    - text: "Here are the courses we offer:"
+      buttons:
+        - title: "Amazon VA"
+          payload: "/c_1"
+        - title: "Graphic Designer"
+          payload: "/c_2"
+        - title: "Digital Marketing"
+          payload: "/c_3"
+        - title: "3D Modelling & Animation"
+          payload: "/c_4"
+        - title: "Fullstack Web development\n        > Frontend Development\n        > Backend Development"
+          payload: "/c_5"
+
+  utter_c_1:
+    - text: "Course 1 details"
+
+  utter_c_2:
+    - text: "Course 2 details"
+
+  utter_c_3:
+    - text: "Course 3 details"
+
+  utter_c_4:
+    - text: "Course 4 details"
+
+  utter_c_5:
+    - text: "Course 5 details"
+
+  utter_basic_inquiry:
+    - text: "Please share your email in format: example@email.com\nWe will get back to you soon."
+
+  utter_contact_no:
+    - text: "You can WhatsApp us at +92 323-4433534"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

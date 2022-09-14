@@ -1,0 +1,43 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: course 1
+  steps:
+    - intent: c_1
+    - action: utter_c_1
+
+- rule: course 2
+  steps:
+    - intent: c_2
+    - action: utter_c_2
+
+- rule: course 3
+  steps:
+    - intent: c_3
+    - action: utter_c_3
+
+- rule: course 4
+  steps:
+    - intent: c_4
+    - action: utter_c_4
+
+- rule: course 5
+  steps:
+    - intent: c_5
+    - action: utter_c_5
+
+- rule: give number if user asks for it
+  steps:
+    - intent: ask_number
+    - action: utter_contact_no

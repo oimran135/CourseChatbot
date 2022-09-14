@@ -1,0 +1,17 @@
+version: "3.1"
+
+stories:
+
+- story: core flow course details
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: course_inquiry
+  - action: utter_course_details_buttons
+
+- story: core flow complaints & inquiries
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: basic_inquiry
+  - action: utter_basic_inquiry

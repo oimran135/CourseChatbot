@@ -1,0 +1,11 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "utter_greet",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpbhMiAUAQvc0lw==": "action_listen",
+    "eJydjtEJgDAMBVfJAE7QVURCLUECGjVNBSnZ3UL9F/x7B8fxxuoD1EPpwpiMdwlQ+0CJGwV4YeVsJM0tmbQ5LA0twKJE5h+NYkaKXf1X+Hgxx8wJWc7CertPDy+LUcY=": "utter_basic_inquiry",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVSYnFmcnxmXmFpZlFlcS5BlULIRNjAXQbcY4=": "action_listen",
+    "eJydjtEJgDAMBVfJAE7QVUSClCABTTVNBCnd3UL9L/j3Do7jzaVOUE6lG9donCRA6QNlPSjABztnI2muZ9LmsDS0AJsSWR003IwUu/qvMHgRk2smZLmc9al1eQGDo1JV": "utter_course_details_buttons",
+    "eJydjtEJwzAMRFfxAJ3Aq4QgXOcIglRuJLkQTHavIfl36Z9OvHvc1M5HaG/Fh1J2LhJDuw6S9EIMd9jYHNLZatDOsPToMawK+DlwVHcoXeh/hsGKXKoaiGWvrMdvc+7OAk+8GT37t4iN3fMXkVh2fg==": "action_listen"
+  }
+}

@@ -1,0 +1,141 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - hey there
+    - goodmorning
+    - goodevening
+    - morning
+    - mornin
+    - good afternoon
+    - assalamu alaikum
+    - assalam o alaikum
+    - aoa
+    - salam
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - ah
+    - allah hafiz
+    - khuda hafiz
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - definitely yes
+    - yes definitely
+    - interested
+    - maybe
+
+- intent: deny
+  examples: |
+    - no
+    - nope
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - ni
+    - nahi
+    - nahin
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - what are you?
+    - what is your name?
+    - tell me about yourself
+
+- intent: c_1
+  examples: |
+    - c_1
+    - course 1
+    - amazon va
+
+- intent: c_2
+  examples: |
+    - c_2
+    - course 2
+    - graphic design
+    - graphic designer
+    - graphic designing
+
+
+- intent: c_3
+  examples: |
+    - c_3
+    - course 3
+    - digital marketing
+
+- intent: c_4
+  examples: |
+    - c_4
+    - course 4
+    - 3d modelling
+    - 3d animation
+    - modeling & animation
+    - 3d modeling and animation
+
+- intent: c_5
+  examples: |
+    - c_5
+    - course 5
+    - fullstack web development
+    - web development
+    - frontend and backend
+    - fullstack
+
+- intent: course_inquiry
+  examples: |
+    - course_inquiry
+    - tell me about your courses
+    - which courses do you offer?
+    - what courses
+    - details of all courses
+
+- intent: basic_inquiry
+  examples: |
+    - basic_inquiry
+    - i have a complaint
+    - i have a question
+    - i do not understand 
+    - i don't understand
+    - need help
+
+- intent: ask_number
+  examples: |
+    - can i have your number?
+    - share whats app
+    - number
+    - whatsapp
+    - contact no.
+    - contact number
+    - cellphone number
+    - whatsapp number
